@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class JavaStdinAndStdoutI {
+public class JavaStdinAndStdout_I {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -9,6 +9,15 @@ public class JavaStdinAndStdoutI {
 
         int i = scan.nextInt();
         System.out.println("Integer is : " + i);
+
+        int a = scan.nextInt();
+        System.out.println(a);
+
+        int b = scan.nextInt();
+        System.out.println(b);
+
+        int c = scan.nextInt();
+        System.out.println(c);
 
         scan.close();
     }
